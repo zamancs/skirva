@@ -2,6 +2,3 @@
 
 Twitter Inspired
 
-# Collaborator
-
-Sahir Zaman
