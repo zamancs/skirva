@@ -1,0 +1,25 @@
+{
+  "name": "tweeter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "cd server && npm run server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zamancs/skirva.git"
+  },
+  "author": "Sahir Zaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zamancs/skirva/issues"
+  },
+  "homepage": "https://github.com/zamancs/skirva#readme",
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5"
+  }
+}
